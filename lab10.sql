@@ -51,9 +51,9 @@ SELECT * FROM Toys
 	sp_helptext PriceIncreasecho
 	sp_helptext QtyOnHand
 
-	SELECT OBJECT_DEFINITION (OBJECT_ID(N'HeavyToys')) AS [ThucHienLenh]; 
-	SELECT OBJECT_DEFINITION (OBJECT_ID(N'PriceIncreasecho')) AS [ThucHienLenh]; 
-	SELECT OBJECT_DEFINITION (OBJECT_ID(N'QtyOnHand')) AS [ThucHienLenh]; 
+	SELECT OBJECT_DEFINITION (OBJECT_ID(N'HeavyToys')) AS ThucHienLenh; 
+	SELECT OBJECT_DEFINITION (OBJECT_ID(N'PriceIncreasecho')) AS ThucHienLenh; 
+	SELECT OBJECT_DEFINITION (OBJECT_ID(N'QtyOnHand')) AS ThucHienLenh; 
 	--2.
 	EXECUTE sp_depends HeavyToys
 	EXECUTE sp_depends PriceIncreasecho
